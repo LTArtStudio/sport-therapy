@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Sport Therapy| Levente Tilica</title>
+	<meta name="description" content="Sport Therapy">
+	<link rel="stylesheet" href="assets/css/services.css">
+	<script src="assets/js/javascript.js"></script>
+  	<link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.1/themes/base/jquery-ui.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.1/jquery-ui.min.js"></script>
+
+
+<!-- Link to icons for Font Awesome 5 -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	 <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,600;1,300;1,400;1,800&display=swap" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">  
+
+	<link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+
+	<style>
+		.menu-mobile-sticky,.menu-desktop-sticky {
+	        background-image: linear-gradient(to right, #00d2ff , #8fd6d9); 
+
+		}
+	</style>
+	<style>
+		.container-narrow fieldset button, .container-narrow fieldset {
+	        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+		}
+	</style>
+	<style>
+		.container-footer {
+	        background-image: linear-gradient(to bottom, #00d2ff , #8fd6d9); 
+		}
+	</style>
+
+	<style>
+		.flex-grid { text-align: center }
+		.flex-grid img  { width: 100%; margin: 0 auto 20px auto;}
+		.flex-grid h3 { margin-bottom: 12px; min-height: 12px; color: red}
+		.flex-grid p { color: #4c4f5a }
+		.container-footer { margin-top: 0 }
+	</style>
+
+	
+<!-- begin menu mobile -->
+<div class="container-menu-bar-mobile  menu-mobile-sticky">
+	<div class="item-logo">
+		<a href="index.html">
+			<img src="assets/logo/logo-3.png" alt="logo">
+		</a>
+	</div>
+	<div class="item-icon">
+		<div class="bar1"></div>
+		<div class="bar2"></div>
+		<div class="bar3"></div>
+	</div>
+</div>
+
+<div class="container-menu-options-mobile menu-mobile-sticky">
+	<ul>
+		<li><a href="index.html#Home">Home</a></li>
+		<li><a href="services.html#Services">Services</a></li>
+		<li><a href="about.html#About">About Us</a></li>
+		<li><a href="login.html#login" class="btn-solid btn-rounded"> Client Login</a></li>
+	</ul>
+</div>
+<!-- end menu mobile -->
+
+
+<!-- begin menu desktop -->
+<div class="container-menu-desktop menu-desktop-sticky">
+	<div class="item-logo">
+		<a href="index.html">
+			<img src="assets/logo/logo-3.png" alt="logo">
+		</a>
+	</div>
+	<div class="item-menu">
+		<ul>
+			<li><a href="index.html#Home">Home</a></li>
+			<li><a href="services.html#Services">Services</a></li>
+			<li><a href="about.html#About">About Us</a></li>
+			<li><a href="login.html#login" class="btn-solid btn-rounded"><i class="far fa-user"></i> Client Login</a></li>
+		</ul>
+	</div>
+</div>
+<!-- end menu desktop -->
+<!-- begin page content -->
+<div class="container-full-feature">
+<h2>Therapeutic Massage</h2>
+<div class="line-top"></div>
+</div>
+<div class="container-narrow">
+	<div class="flex-grid testimonials">
+		<div class="col-gutter">
+			<img src="assets/img/f1.jpg" class="img-fluid" alt="sample testimonial">
+			<h4>SPORT MASSAGE BENEFITS FOR ATHLETES </h4>
+			<p>
+				One of the biggest problem that <br>
+				the athletes, and regular peoaple who<br>
+				work out often complain about is the <br>
+				muscle pain experienced after trainings</p>
+		</div>
+		<fieldset>  
+			<h5><i class="fas fa-running"></i>Sport Massaje</h5>    
+			<div class="type-text">
+ 				<p>Select your date <input type="text" id="tbDate" /></p>
+			</div> 
+			<div class="type-select">
+	    		<label for="type_massage">Massage Type</label>
+			    <select id="type" name="[type]" class="select">
+			        <option value="">---</option>
+			        <option value="01">Sport Massage</option>
+			        <option value="02">Kinesiotaping</option>
+			        <option value="03">Trigger Points Therapy</option>
+			        <option value="04">Deep Tissue Massage</option>
+			    </select>  
+			</div>        
+			<div class="type-select ">
+    			<label for="time_from_minute">Price  / Session </label>
+    			<select id="time_from_minute" name="[time_from_minute]" class="select">
+        			<option value="">---</option>
+        			<option value="30">30 min - €50</option>
+        			<option value="60">60 min - €90</option>
+    			</select>
+			</div>  
+			    <button onclick="myFunction()">Book Now</button>
+			    <label>
+			    	<p id="demo"></p> 
+				</label>
+		</fieldset>  
+	</div>
+	<div class="flex-grid testimonials">
+		<div class="col-gutter">
+			<img src="assets/img/4.1.jpg" class="img-fluid" alt="sample testimonial">
+			<h4>MEDICAL MASSAGE BENEFITS </h4>
+			<p>You can
+			use massage, can explore more health<br>
+			benefits.We should only use it for any<br>
+			other way of health care, it is just <br>
+			a fad! we have something for you.</p>
+		</div>
+		<fieldset>   
+		<h5><i class="fas fa-heartbeat"></i>Medical Massaje</h5>   
+		<div class="type-text">
+			<p>Select your date: <input type="text" id="tbDate" /></p>
+		</div>  
+		<div class="type-select">
+    		<label for="type">Massage Type</label>
+		    <select id="type" name="[type]" class="select">
+		        <option value="">---</option>
+		        <option value="01">Medical Massage</option>
+		        <option value="02">Relaxing Massage</option>
+		        <option value="03">Hot Stones Massage</option>
+		        <option value="04">Myofascial Release</option>
+				<option value="05">Lymphatic Drainage (MLD)</option>
+		    </select>  
+		</div>        
+		<div class="type-select">
+			<label for="time_from_minute">Price  / Session </label>
+			<select id="time_from_minute" name="[time_from_minute]" class="select">
+    			<option value="">---</option>
+    			<option value="30">30 min - €50</option>
+        		<option value="60">60 min - €90</option>
+			</select>
+			</div> 
+			<button onclick="myFunction()">Book Now</button>
+			<label>
+			<p id="demo"></p>
+			</label>
+		
+		</fieldset> 
+	</div><!--- /flex-grid -->
+</div><!--- /container -->
+<div class="line color-change-2x"></div>
+<div class="container-info">
+	<div class="flex-grid-info">
+		<div class="col-gutter">
+			<h4><i class="fab fa-accessible-icon"></i><br>PAIN REDUCTION </h4>
+			<p> 
+			One of the biggest problem that 
+			the athletes, and regular peoaple who
+			 work out often complain about is the 
+			muscle pain experienced after trainings</p>
+		</div>
+
+		<div class="col-gutter">
+			<h4><i class="fas fa-bed"></i><br>SLEEP IMPROVEMENT</h4>
+			<p>Another big help when it comes to muscle healing and overall health is to get enough sleep.
+			Sleep play a very big part in the process of recovery.</p>
+		</div>
+		<div class="col-gutter">
+			<h4><i class="fas fa-couch"></i><br>RELAXATION</h4>
+			<p>The biggest benefit that sports massage therapy offer is physical and mental relaxation.
+			By going through deep tissue massage once or twice a week,
+			athletes keep their tissues and  muscles healthy, clear their minds, and just relax.</p>
+		</div>
+	</div>	
+</div>
+
+<div class="container-footer">
+	<div class="flex-grid-footer">
+		<div class="col-gutter">
+			<h4>ABOUT US</h4>
+			<p>It offers you therapeutic (medical) massage, anti-cellulite, sports, relaxation, reflexology. The massage is intended for the main men in terms of health and physical maintenance but also the curative purpose. You can use massage, can explore more health benefits.We should only use it for any other way of health care, it is just a fad!</p>
+		</div><!-- /column -->
+
+		<div class="col-gutter">
+			<h4>SITE MAP</h4>
+			<p><i class="fas fa-fw fa-home"></i> <a href="">Home</a></p>
+			<p><i class="fas fa-fw fa-lock"></i> <a href="">Privacy</a></p>
+		</div><!-- /column -->
+		<div class="col-gutter">
+			<h4>CONTACT</h4>
+			<p><i class="fas fa-fw fa-envelope"></i> <a href="">@sporttherapy.com</a></p>
+			<p><i class="fas fa-fw fa-phone"></i> <a href="">+353 002 002 3457</a></p>
+		</div>
+	</div>	
+</div>
+
+
+<script> $(function() { $('input[id$=tbDate]').datepicker() }); </script>
+<script>
+    $(document).ready(function() {
+        $('input[id$=tbDate]').datepicker({
+            onClose: function(dateText, inst) {
+                $("#tbToSetFocus").focus();
+            }
+        });
+    });
+</script> 
+
+<script>
+var date = $('#datepicker').datepicker({ dateFormat: 'dd-mm-yy' }).val();
+</script>
+
+<script>
+	function myFunction() {
+	var txt;
+	var r = confirm("Please Confirm Your Booking");
+	if (r == true) {
+	txt = " You are successfuly booked";
+	} 
+	else {
+	txt = "You pressed Cancel!";
+	}
+	document.getElementById("demo").innerHTML = txt;
+	}
+
+</script>
+
+
+<!-- Begin JavaScript code showing/hiding slide-out menu -->
+<script>
+	document.querySelector('.item-icon').addEventListener('click', toggleMobileMenu)
+
+	function toggleMobileMenu() {
+		//toggle hamburger icon
+		let elemIcon = document.querySelector('.item-icon');
+		elemIcon.classList.toggle("change");
+	
+		//if mobile menu currently closed, open menu.
+		if (elemIcon.classList.contains('change')) {
+			document.querySelector(".container-menu-options-mobile").style.left = "0";
+		}
+		//if mobile menu currently open, close menu.
+		else {
+			document.querySelector(".container-menu-options-mobile").style.left = "-320px";
+		}
+	}
+</script>
+<!-- End JavaScript code showing/hiding slide-out menu -->
+
+
+
+</body>
+</html>
