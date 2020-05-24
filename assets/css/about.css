@@ -289,7 +289,7 @@ body { font-family: "Segoe UI",Arial,sans-serif; }
 	}
 	.container-menu-desktop .item-menu ul li a:hover, 
 	.container-menu-desktop .item-menu ul li a:active { 
-		text-decoration: none; color: red;
+		text-decoration: none;
 	}
 
 	/* ---------------------- Menu option styled as a button------------------------*/
@@ -380,7 +380,7 @@ body { font-family: "Segoe UI",Arial,sans-serif; }
 	}
 
 	.container img {vertical-align: middle;
-		width: 80%; height: auto; 
+		height: auto; 
 	}
 	
 	.container .slide-in-top{
