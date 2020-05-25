@@ -360,7 +360,7 @@ body { font-family: "Segoe UI",Arial,sans-serif; }
 		margin-right: auto;
 		font-size: 22px;
 		text-align: center;
-		font-family: 'Montserrat', sans-serif;
+		font-family: 'Merienda One', cursive !important;
 
 		
 	}
@@ -370,8 +370,8 @@ body { font-family: "Segoe UI",Arial,sans-serif; }
 		width:90%; 
 		margin-left: auto;
 		margin-right: auto;
-		font-size: 20px;
-		font-family: 'Montserrat', sans-serif;
+		font-size: 18px;
+		font-family: 'Merienda One', cursive !important;
 	}	
 	.container {
 		position: relative;
@@ -395,7 +395,7 @@ body { font-family: "Segoe UI",Arial,sans-serif; }
 	}
 	.container h1 p{
 		color: #f1f1f1;
-		font-family: 'Montserrat', sans-serif;
+		
 	}
 }
 
@@ -406,9 +406,9 @@ body { font-family: "Segoe UI",Arial,sans-serif; }
 		margin-top: 0px; 
 		margin-left: auto;
 		margin-right: auto;
-		font-size: 14px;
+		font-size: 13px;
 		text-align: center;
-		font-family: 'Montserrat', sans-serif;
+		font-family: 'Merienda One', cursive !important;
 	}
 	
 	.container p{ 
@@ -417,8 +417,8 @@ body { font-family: "Segoe UI",Arial,sans-serif; }
 		width: 90%; 
 		margin-left: auto;
 		margin-right: auto;
-		font-size: 9.5px;
-		font-family: 'Montserrat', sans-serif;
+		font-size: 8.8px;
+		font-family: 'Merienda One', cursive !important;
 	}
 	.container {
 		position: relative;
@@ -443,7 +443,7 @@ body { font-family: "Segoe UI",Arial,sans-serif; }
 	}
 	.container h1 p{
 		color: #f1f1f1;
-		font-family: 'Montserrat', sans-serif;
+		
 	}
 }
 
