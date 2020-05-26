@@ -109,7 +109,7 @@
           <div id="list" class="panel">
             <a href="index.html#Home" target="_blank"><i class="fas fa-tags"></i></a>
             <h5>
-              Package Offer!
+              Package Offers !
             </h5>
             <ul>
               <li>Sign In to get this deal<br> €15% off<a id="amount" href="#"><br>Get Yearly Offer</a></li>
@@ -240,9 +240,9 @@
           $("#redeem").hide();
           Voucherify.renderPublish("#widget", {
             campaignName: "aggregator-300euro",
-            customerFields: [{name: "email", required: true}],
-            customerEmailPlaceholder: "your@email.com",
-            textPublish: "15% off orders above €300",
+            customerFields: [{name: "text", required: true}],
+            customertextPlaceholder: "Purchase now and you get €20 voucher.",
+            textPublish: " 15% off",
             onPublished: publishSuccess
           });
         });
