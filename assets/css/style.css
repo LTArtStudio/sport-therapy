@@ -443,6 +443,10 @@ body { font-family: "Segoe UI",Arial,sans-serif; }
 		float:right;
 		padding-bottom: 20px;
 	}
+	h5{
+		font-size: 38px;
+		color:white;
+	}
 	.line h6{
 		margin-top: 15px;
 		font-size: 24px!important;
@@ -541,6 +545,10 @@ body { font-family: "Segoe UI",Arial,sans-serif; }
 		color:white;
 		float:right;
 		padding-bottom: 20px;
+	}
+	h5{
+		font-size: 24px;
+		color:white;
 	}
 	.fa-angle-double-down{
 		display: grid;
