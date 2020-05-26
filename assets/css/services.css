@@ -193,7 +193,7 @@ body { font-family: "Segoe UI",Arial,sans-serif; }
 		padding: 8px 20px;
 		font-size: 96%;
 		font-weight:normal;
-		box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+		box-shadow: 0 12px 16px 0 rgba(0,0,0,0.18),0 17px 50px 0 rgba(0,0,0,0.16);
 	}
 
 	.container-menu-desktop .item-menu ul li a.btn-solid i { margin-right: 12px }
@@ -509,7 +509,7 @@ body { font-family: "Segoe UI",Arial,sans-serif; }
 		margin-bottom: :25px;
 		background-color:#75d2ed;
 		color:white;
-		border-radius:50px;
+		border-radius:5px;
 		border-color:transparent;
 		justify-content: center;
 	}
@@ -580,7 +580,7 @@ body { font-family: "Segoe UI",Arial,sans-serif; }
 		margin-top:5px;
 		background-color:#75d2ed;
 		color:white;
-		border-radius:50px;
+		border-radius:5px;
 		border-color:transparent;
 	}
 
