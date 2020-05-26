@@ -112,8 +112,8 @@
               Package Offers !
             </h5>
             <ul>
-              <li>Sign In to get this deal<br> 15% off<a id="amount" href="#"><br>Get Yearly Offer</a></li>
-              <li>Sign In to get this deal<br>30% off <a id="product" href="#"><br>Get Montly Offer</a></li>
+              <li>Sign In to get this deal 15% off,<br> 30 minutes Medical Massage !<a id="amount" href="#"><br>Get Yearly Offer</a></li>
+              <li>Sign In to get this deal<br>30% off,<br> any Therapy Massage! <a id="product" href="#"><br>Get Montly Offer</a></li>
             </ul>
           </div>     
         </div>
@@ -240,9 +240,9 @@
           $("#redeem").hide();
           Voucherify.renderPublish("#widget", {
             campaignName: "aggregator-Yeary offer",
-            customerFields: [{name: "text", required: true}],
-            customertextPlaceholder: "You have a voucher? enter your email",
-            textPublish: "Purchase Now",
+            customerFields: [{name: "email", required: true}],
+            customerEmailPlaceholder: "You have a voucher? enter your email",
+            textPublish: "15% Purchase Now",
             onPublished: publishSuccess
           });
         });
@@ -255,7 +255,7 @@
             campaignName: "aggregator-Montly offer",
             customerFields: [{name: "email", required: true}],
             customerEmailPlaceholder: "You have a voucher? enter your email",
-            textPublish: "Purchase Now",
+            textPublish: "30% Purchase Now",
             onPublished: publishSuccess
           });
         });
