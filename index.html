@@ -101,7 +101,7 @@
 	</div>
 </div>
 <div class="container-full-feature">
-	<h2>Get Your Voucher Now <i class="fas fa-angle-double-down" style="font-size:30px;color:#00d2ff;"></i> </h2>
+	<h2>Get Your Deal Now <i class="fas fa-angle-double-down" style="font-size:30px;color:#00d2ff;"></i> </h2>
 </div>
 <main>
       <div class="row center-xs">
@@ -109,10 +109,9 @@
           <div id="list" class="panel">
             <a href="index.html#Home" target="_blank"></i></a>
             <h5>Pay Full Month of €600 <br> You Get 25% off</h5>
-		<p>Sahe Up €150</p>
+		<p>Save Up €150</p>
             <ul>
-              <li>Sign In to get offer <a id="amount" href="#"><br>Get Yearly Offer</a></li>
-              <li>Sign In to get this deal<br>30% off,<br> Any Therapy Massage! <a id="product" href="#"><br>Get Montly Offer</a></li>
+              <li><a id="amount" href="#">Sign In to get this deal </a></li>
             </ul>
           </div>     
         </div>
@@ -241,26 +240,10 @@
             campaignName: "aggregator-Yeary offer",
             customerFields: [{name: "email", required: true}],
             customerEmailPlaceholder: "You have a voucher? enter your email",
-            textPublish: "15% off Yeary Package",
+            textPublish: "Sign In to get this deal",
             onPublished: publishSuccess
           });
         });
-        
-        $("#product").on('click', e => {
-          e.preventDefault();
-          widget.empty();
-          $("#redeem").hide();
-          Voucherify.renderPublish("#widget", {
-            campaignName: "aggregator-Montly offer",
-            customerFields: [{name: "email", required: true}],
-            customerEmailPlaceholder: "You have a voucher? enter your email",
-            textPublish: "30% off Montly Package",
-            onPublished: publishSuccess
-          });
-        });
-            
-      });
-
     </script>
 
 
