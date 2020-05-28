@@ -423,9 +423,12 @@ body { font-family: "Segoe UI",Arial,sans-serif; }
 	}
 	.panel{
 	   	border: 4px dashed white;
-		padding: 3em;
+		text-align:center;
+		padding-left: 2em;
+		padding-right: 2em;
 		border-radius: 20px;
 		background: #70d1eb;
+		
 		box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 	}
 	.ml2 {
@@ -437,12 +440,7 @@ body { font-family: "Segoe UI",Arial,sans-serif; }
   		display: inline-block;
   		line-height: 1em;
 	}
-	main .fa-tags{
-		font-size: 60px;
-		color:white;
-		float:right;
-		padding-bottom: 20px;
-	}
+	
 	h5{
 		font-size: 38px;
 		color:white;
@@ -526,7 +524,9 @@ body { font-family: "Segoe UI",Arial,sans-serif; }
 	}
 	.panel{
 	   	border: 4px dashed white;
-		padding: 3em;
+		text-align:center;
+		padding-left: 2em;
+		padding-right: 2em;
 		border-radius: 20px;
 		background: #70d1eb;
 		box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
@@ -540,12 +540,7 @@ body { font-family: "Segoe UI",Arial,sans-serif; }
   		display: inline-block;
   		line-height: 1em;
 	}
-	main .fa-tags{
-		font-size: 40px;
-		color:white;
-		float:right;
-		padding-bottom: 20px;
-	}
+	
 	h5{
 		font-size: 24px;
 		color:white;
