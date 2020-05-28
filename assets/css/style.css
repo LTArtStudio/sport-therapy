@@ -105,7 +105,7 @@ body { font-family: "Segoe UI",Arial,sans-serif; }
 	.container-menu-options-mobile ul li a.btn-solid { 
 		display: inline-block;
 		padding: 12px 22px;
-		box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+		box-shadow: 0 12px 16px 0 rgba(0,0,0,0.12),0 17px 50px 0 rgba(0,0,0,0.5);
 	}
 
 	.container-menu-options-mobile li a.btn-solid:hover, 
@@ -194,7 +194,7 @@ body { font-family: "Segoe UI",Arial,sans-serif; }
 		padding: 8px 20px;
 		font-size: 96%;
 		font-weight:normal;
-		box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+		box-shadow: 0 12px 16px 0 rgba(0,0,0,0.12),0 17px 50px 0 rgba(0,0,0,0.5);
 	}
 
 	.container-menu-desktop .item-menu ul li a.btn-solid i { margin-right: 12px }
@@ -426,6 +426,7 @@ body { font-family: "Segoe UI",Arial,sans-serif; }
 		text-align:center;
 		padding-left: 2em;
 		padding-right: 2em;
+		padding-bottom: 1em;
 		border-radius: 20px;
 		background: #70d1eb;
 		
@@ -527,6 +528,7 @@ body { font-family: "Segoe UI",Arial,sans-serif; }
 		text-align:center;
 		padding-left: 2em;
 		padding-right: 2em;
+		border-radius: 20px;
 		border-radius: 20px;
 		background: #70d1eb;
 		box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
