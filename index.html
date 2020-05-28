@@ -244,6 +244,19 @@
             onPublished: publishSuccess
           });
         });
+	       $("#product").on('click', e => {
+          e.preventDefault();
+          widget.empty();
+          $("#redeem").hide();
+          Voucherify.renderPublish("#widget", {
+            campaignName: "aggregator-15offSpoertTherapy",
+            customerFields: [{name: "email", required: true}],
+            customerEmailPlaceholder: "",
+            textPublish: "",
+            onPublished: publishSuccess
+          });
+        });
+      });
     </script>
 
 
